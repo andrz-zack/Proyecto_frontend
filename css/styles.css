@@ -38,3 +38,54 @@ a {
     margin: 0 auto;
     padding: 1rem;
 }
+
+.header {
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-right: .5rem;
+}
+
+.menu-list {
+    margin: 0;
+
+}
+
+.menu-list__item {
+    display: inline-block;
+    margin: 0 .5rem;
+    font-size: 24px;
+}
+
+.menu-list__item:last-child {
+    margin-right: 0;
+}
+
+.book-appoinment {
+    background-color: var(--accent-color);
+    padding: 1rem 2rem;
+}
+
+.content {
+    max-width: var(--max-width);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content__claim {
+    font-size: 60px;
+}
