@@ -1,4 +1,40 @@
-html {
-    background-color: rgb(23, 21, 41);
+ :root {
+    --max-width: 1280px;
+    --min-width: 320px;
+    --accent-color: #00c2ff;
+}
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 46);
     color: #fff;
+    font-size: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: var(--min-width);
+    background-image: url('../img/porsch.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.header, .content, .footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
 }
