@@ -121,5 +121,14 @@ a {
 }
 
 .footer__widget__text {
-    
+    margin: 0;
+}
+
+/* responsive stuff */
+
+@media  screen and  (max-width: 1280px) { 
+    .header, .footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
