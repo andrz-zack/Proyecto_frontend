@@ -87,6 +87,23 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    position: relative;
+    padding: 2.5rem;
+}
+
+.slideButton {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.prevSlide {
+    left: -3rem;
+}
+.nextSlide {
+    right: 3rem;;
 }
 
 .content__claim {
@@ -126,7 +143,7 @@ a {
 
 /* responsive stuff */
 
-@media  screen and  (max-width: 1280px) { 
+@media  screen and  (max-width: 850px) { 
     .header, .footer {
         flex-direction: column;
         text-align: center;
