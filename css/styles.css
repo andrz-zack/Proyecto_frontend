@@ -20,6 +20,11 @@ a {
     text-decoration: none;
     color: white;
 }
+.book-appoinment {
+    background-color: var(--accent-color);
+    padding: 1rem 2rem;
+    font-size: 24px;
+}
 
 .container {
     height: 100vh;
@@ -72,10 +77,7 @@ a {
     margin-right: 0;
 }
 
-.book-appoinment {
-    background-color: var(--accent-color);
-    padding: 1rem 2rem;
-}
+
 
 .content {
     max-width: var(--max-width);
@@ -88,4 +90,14 @@ a {
 
 .content__claim {
     font-size: 60px;
+    color: var(--accent-color);
+    margin: 0;
 }
+
+.content__subclaim {
+    font-size: 30px;
+    margin: .5rem 0;
+    margin-bottom: 0;
+}
+
+/* footer */
