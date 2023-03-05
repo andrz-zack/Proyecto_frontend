@@ -3,6 +3,10 @@ const images = [
     'img/audi-r8.png',
     'img/ferrari-rojo.png',
     'img/porsch.png',
+    'img/price-rolls.png',
+    'img/mercedes.png',
+    'img/silvester.png'
+
 
 
 ]
