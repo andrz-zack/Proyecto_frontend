@@ -131,4 +131,13 @@ a {
         flex-direction: column;
         text-align: center;
     }
+    .menu {
+        margin-top: 1.5rem;
+    }
+    .content {
+        align-items: center;
+    }
+    .footer__widget {
+        margin-bottom: 1rem;
+    }
 }
