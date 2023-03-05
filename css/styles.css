@@ -35,6 +35,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: background-image 0.7s ease-in-out;
     
 }
 
@@ -89,6 +90,7 @@ a {
     align-items: flex-start;
     position: relative;
     padding: 2.5rem;
+    
 }
 
 .slideButton {
