@@ -17,25 +17,25 @@ const prevSlideButton = document.querySelector('.prevSlide');
 const nextSlideButton = document.querySelector('.nextSlide');
 
 // listen for arrow click event
-prevSlideButton.addEventListener('click', function( ) {
-    index --
+prevSlideButton.addEventListener('click', function() {
+    index --;
 
-    setImageIndex()
-    changeBackgroundImage(images[index], containerElement);
+    setImageIndex();
+    changeBackgroundImage(images[index],containerElement);
 });
 
 nextSlideButton.addEventListener('click', function(){
-    index++
+    index ++;
 
     setImageIndex()
     changeBackgroundImage(images[index], containerElement);
 
-})
+});
 
  //utily functions
 
  function setImageIndex() {
-    if (index < 0) max - 1;
+    if (index < 0) index = max - 1;
     if (index === max) index = 0;
  };
 
