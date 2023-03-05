@@ -42,10 +42,11 @@ a {
     width: 100%;
     margin: 0 auto;
     padding: 1rem;
+    max-width: var(--max-width);
 }
 
 .header {
-    max-width: var(--max-width);
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +81,7 @@ a {
 
 
 .content {
-    max-width: var(--max-width);
+    
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -101,3 +102,10 @@ a {
 }
 
 /* footer */
+.footer-wrapper {
+    background-color: #000;
+}
+
+.footer {
+
+}
